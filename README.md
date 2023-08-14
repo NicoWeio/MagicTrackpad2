@@ -1,6 +1,12 @@
 # Experimenting with the Magic Trackpad 2 on Linux
 
-> This writeup ist just as WIP as my experiments.
+> [!NOTE]
+> For a comparison of different drivers, see [`REPOS.md`](https://github.com/NicoWeio/MagicTrackpad2/blob/main/REPOS.md).
+<!-- NOTE: relative links don't work correctly when viewing README.md from the repo's main page -->
+
+
+> [!WARNING]
+> The following writeup ist just as WIP as my experiments.
 
 ## Intro
 The haptic feedback of the Magic Trackpad 2 is configurable via three bytes.
@@ -69,10 +75,3 @@ Notation: `0x{click}`, `0x{release}`
 - `0x30`, `0x01`
   - The click feels normal, but it feels like the touchpad “sticks” to ones finger.
 - …
-
-
-## Links
-
-- https://github.com/mwyborski/Linux-Magic-Trackpad-2-Driver
-- https://github.com/ponyfleisch/hid-magictrackpad2
-- https://github.com/dos1/Linux-Magic-Trackpad-2-Driver
